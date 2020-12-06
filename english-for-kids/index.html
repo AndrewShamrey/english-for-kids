@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Learn english">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn english</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="menu-back"></div>
+    <div class="menu">
+        <nav class="burger-nav">
+            <img class="stats-img" src="assets/img/stats.png" alt="stats" title="show statistics">
+            <ul class="ul-burger">
+                <li class="active">Main<img src="assets/img/main.svg" alt="main"></li>
+                <li>Food<img src="assets/img/Food/food.png" alt="food"></li>
+                <li>Animals<img src="assets/img/Animals/animals.png" alt="animals"></li>
+                <li>Colors<img src="assets/img/Colors/colors.png" alt="colors"></li>
+                <li>Emotions<img src="assets/img/Emotions/emotions.png" alt="emotions"></li>
+                <li>Actions<img src="assets/img/Actions/actions.png" alt="actions"></li>
+                <li>Body<img src="assets/img/Body/body.png" alt="body"></li>
+                <li>Family<img src="assets/img/Family/family.png" alt="family"></li>
+                <li>Home<img src="assets/img/Home/home.png" alt="home"></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div class="container">
+        <div class="buttons">
+            <div class="burger-container">
+                <div class="hamburger"></div>
+            </div>
+            <h1>English For Kids</h1>
+            <div class="switch-btn">
+                <p><span class="train">TRAIN</span></p>
+                <div class="check">
+                    <input id="check" type="checkbox">
+                    <label for="check"></label>
+                </div>
+                <p><span class="play">PLAY</span></p>
+            </div>
+        </div>
+        <div class="cards-container">
+            <div class="page-title-and-game">
+                <h2 class="title"></h2>
+                <p class="start-game-btn">start</p>
+                <div class="stars-container"></div>
+            </div>
+            <div class="cards"></div>
+        </div>
+
+
+
+        <div class="stats-container">
+            <div class="stats-buttons">
+                <p class="repeat">Repeat difficult words</p>
+                <p class="reset">Reset</p>
+            </div>
+            <div class="stats-table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Word</th>
+                            <th>Translation</th>
+                            <th>Category</th>
+                            <th>Trained</th>
+                            <th>Correct</th>
+                            <th>Incorrect</th>
+                            <th>%</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+
+        <footer>
+            <hr>
+            <div class="footer-text">
+                <a class="logo-a" href="https://rs.school/js/"><img src="assets/img/rs_school_js.svg" alt="rs_logo"></a>
+                <a class="author-git" href="https://github.com/AndrewShamrey">©AndrewShamrey, 2020</a>
+            </div>
+        </footer>
+    </div>
+
+    <div class="audio-container"></div>
+    <audio id="correct" src="assets/audio/correct.mp3"></audio>
+    <audio id="error" src="assets/audio/error.mp3"></audio>
+    <audio id="success" src="assets/audio/success.mp3"></audio>
+    <audio id="failure" src="assets/audio/failure.mp3"></audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
